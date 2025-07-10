@@ -23,19 +23,21 @@ BeanCounter is a fun, modern web application that helps you:
 
 ### Installation
 
-1. **Clone the repository**
+1. **Clone or download the repository**
    ```bash
-   git clone https://github.com/yourusername/BeanCounter.git
+   git clone <repository-url>
    cd BeanCounter
    ```
 
 2. **Open the application**
+   
+   **Option 1: Direct browser access**
    ```bash
    # Simply open index.html in your browser
    open index.html
    ```
    
-   Or if you prefer the command line:
+   **Option 2: Local server (optional)**
    ```bash
    # Using Python (if installed)
    python -m http.server 8000
@@ -43,16 +45,19 @@ BeanCounter is a fun, modern web application that helps you:
    # Using Node.js (if installed)
    npx serve .
    ```
+   
+   Then open `http://localhost:8000` in your browser.
 
 3. **Start counting beans!** 🫘
 
 ## 🎨 Features
 
-### Current Features
+### Current Features (Version 1.0.0)
 - ✨ Beautiful, responsive landing page
 - 🎭 Fun animations and coffee-themed design
 - 📱 Mobile-friendly interface
 - 🎯 Interactive elements
+- ☕ Coffee-themed branding and styling
 
 ### Coming Soon
 - 🔐 User authentication
@@ -74,7 +79,7 @@ BeanCounter is a fun, modern web application that helps you:
 
 ```
 BeanCounter/
-├── index.html          # Main application page
+├── index.html          # Main application page (landing page)
 ├── README.md          # This file
 ├── .git/              # Git repository
 └── (future files)     # More features coming soon!
@@ -101,7 +106,7 @@ We love contributions! Here's how you can help make BeanCounter even better:
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is open source and available under the MIT License.
 
 ## ☕ Coffee Facts
 
