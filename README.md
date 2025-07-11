@@ -1,163 +1,163 @@
-# ☕ BeanCounter
+# ☕ eanCounterBay
 
-> **Where every bean counts and every penny matters!**
+> **ereWay everyway eanbay ountscay andway everyway ennypay attersmay!**
 
-BeanCounter is your ultimate coffee shop companion - a delightful expense tracker and inventory management system designed specifically for coffee lovers and cafe owners. Whether you're running a bustling coffee shop or just want to track your daily caffeine expenses, BeanCounter has got you covered!
+eanCounterBay isway ourway ultimateway offeecay opshay ompanioncay - away elightfulday expenseway ackertray andway inventoryway anagementmay ystemsay esignedday ecificallysay orfay offeecay overslay andway afecay ownersway. etherWhay ou'reyay unningray away ustlingbay offeecay opshay orway ustjay antway otay ackray ourway ailyday affeinecay expensesway, eanCounterBay ashay otgay ou'reyay overedcay!
 
-## 🫘 What's BeanCounter?
+## 🫘 at'sWhay eanCounterBay?
 
-BeanCounter is a fun, modern web application that helps you:
+eanCounterBay isway away unfay, odernmay ebway applicationway atthay elpshay ouyay:
 
-- **💰 Track Expenses** - Monitor your coffee shop spending with ease
-- **📊 Analytics Dashboard** - Beautiful charts and insights about your coffee habits
-- **🫘 Inventory Management** - Keep track of your coffee bean stock
-- **☕ Recipe Management** - Store and manage your favorite coffee recipes
-- **📱 Mobile Friendly** - Access your data anywhere, anytime
+- **💰 ackTray Expensesway** - onitorMay ourway offeecay opshay endingspay ithway easeway
+- **📊 Analyticsway ashboardDay** - eautifulBay artschay andway insightsway aboutway ourway offeecay abithay
+- **🫘 Inventoryway anagementMay** - eepKay ackray ofway ourway offeecay eanbay ockstay
+- **☕ ecipeRay anagementMay** - oreStay andway anagemay ourway avoritefay offeecay ecipesray
+- **📱 obileMay iendlyFray** - Accessway ourway ataday anywhereway, anytimeway
 
-## 🚀 Getting Started
+## 🚀 ettingGay artedStay
 
-### Prerequisites
+### erequisistesPray
 
-- A modern web browser (Chrome, Firefox, Safari, Edge)
-- A love for coffee (optional but highly recommended! ☕)
+- Away odernmay ebway owserbray (omeCray, irefoxFay, afariSay, Edgeway)
+- Away ovelay orfay offeecay (optionalway utbay ighlyhay ecommendedray! ☕)
 
-### Installation
+### Installationway
 
-1. **Clone or download the repository**
+1. **oneClay orway ownloadday ethay epositoryray**
    ```bash
    git clone <repository-url>
    cd BeanCounter
    ```
 
-2. **Open the application**
+2. **Openway ethay applicationway**
    
-   **Option 1: Direct browser access**
+   **Optionway 1: irectDay owserbray accessway**
    ```bash
-   # Simply open index.html in your browser
+   # implySay openway index.html inway ourway owserbray
    open index.html
    ```
    
-   **Option 2: Local server (optional)**
+   **Optionway 2: ocalLay erversay (optionalway)**
    ```bash
-   # Using Python (if installed)
+   # Usingway ythonPay (ifway installedway)
    python -m http.server 8000
    
-   # Using Node.js (if installed)
+   # Usingway ode.jsNay (ifway installedway)
    npx serve .
    ```
    
-   Then open `http://localhost:8000` in your browser.
+   enThay openway `http://localhost:8000` inway ourway owserbray.
 
-3. **Start counting beans!** 🫘
+3. **artStay ountingcay eansbay!** 🫘
 
-## 🎨 Features
+## 🎨 eaturesFay
 
-### Current Features (Version 1.0.0)
-- ✨ Beautiful, responsive landing page
-- 🎭 Fun animations and coffee-themed design
-- 📱 Mobile-friendly interface
-- 🎯 Interactive elements
-- ☕ Coffee-themed branding and styling
+### urrentCay eaturesFay (ersionVay 1.0.0)
+- ✨ eautifulBay, esponsiveray andinglay agepay
+- 🎭 unFay animationsway andway offeecay-emedthay esignday
+- 📱 obileMay-iendlyfray interfaceway
+- 🎯 Interactiveway elementsway
+- ☕ offeeCay-emedthay andingbray andway ylingstay
 
-### Coming Soon
-- 🔐 User authentication
-- 💾 Local storage for data persistence
-- 📊 Interactive charts and graphs
-- 🫘 Coffee bean inventory tracking
-- ☕ Recipe database
-- 💰 Expense categorization
-- 📱 Progressive Web App (PWA) support
+### omingCay oonSay
+- 🔐 Userway authenticationway
+- 💾 ocalLay oragestoray orfay ataday ersistencepay
+- 📊 Interactiveway artschay andway aphsgray
+- 🫘 offeeCay eanbay inventoryway ackingrtay
+- ☕ ecipeRay atabaseday
+- 💰 Expenseway ategorizationcay
+- 📱 ogressivePray ebWay Appway (AWPay) upportsay
 
-## 🛠️ Tech Stack
+## 🛠️ echTay ackStay
 
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
-- **Styling**: Custom CSS with modern gradients and animations
-- **Icons**: Emoji-based icons for a fun, approachable feel
-- **Design**: Coffee-themed color palette and typography
+- **ontendFray**: TML5Hay, SS3Cay, avaScriptJay (ES6+)
+- **ylingSay**: ustomCay SS3Cay ithway odernmay adientssgray andway animationsway
+- **Iconsway**: Emoji-asedbay iconsway orfay away unfay, oachableappray eelfay
+- **esignDay**: offeeCay-emedthay olorcay alettepay andway ypographytay
 
-## 🎯 Project Structure
+## 🎯 ojectPray uctureSay
 
 ```
 BeanCounter/
-├── index.html          # Main application page (landing page)
-├── README.md          # This file
-├── .git/              # Git repository
-└── (future files)     # More features coming soon!
+├── index.html          # ainMay applicationway agepay (andinglay agepay)
+├── README.md          # isThay ilefay
+├── .git/              # itGay epositoryray
+└── (future files)     # oreMay eaturesfay omingcay oonsay!
 ```
 
-## 🤝 Contributing
+## 🤝 ontributingCay
 
-We love contributions! Here's how you can help make BeanCounter even better:
+eWay ovelay ontributionscay! ere'sHay owhay ouyay ancay elphay akemay eanCounterBay evenway etterbay:
 
-1. **Fork the repository**
-2. **Create a feature branch** (`git checkout -b feature/amazing-feature`)
-3. **Commit your changes** (`git commit -m 'Add some amazing feature'`)
-4. **Push to the branch** (`git push origin feature/amazing-feature`)
-5. **Open a Pull Request**
+1. **orkFay ethay epositoryray**
+2. **eateCray away eaturefay anchbray** (`git checkout -b feature/amazing-feature`)
+3. **ommitCay ourway angeschay** (`git commit -m 'Add some amazing feature'`)
+4. **ushPay otay ethay anchbray** (`git push origin feature/amazing-feature`)
+5. **Openway away ullPay equestRay**
 
-### Contribution Ideas
-- 🎨 UI/UX improvements
-- 📊 New analytics features
-- 🫘 Enhanced inventory management
-- ☕ Coffee recipe database
-- 📱 Mobile app features
-- 🧪 Unit tests
-- 📚 Documentation improvements
+### ontributionCay Ideasway
+- 🎨 UI/UX improvementsway
+- 📊 ewNay analyticsway eaturesfay
+- 🫘 Enhancedway inventoryway anagementmay
+- ☕ offeeCay eciperay atabaseday
+- 📱 obileMay appway eaturesfay
+- 🧪 Unitway eststay
+- 📚 ocumentationDay improvementsway
 
-## 📝 License
+## 📝 icenseLay
 
-This project is open source and available under the MIT License.
+isThay ojectpray isway openway ourcesay andway ailableavay underway ethay ITMay icenseLay.
 
-## ☕ Coffee Facts
+## ☕ offeeCay actsFay
 
-Did you know?
-- Coffee beans are actually seeds from coffee cherries! 🫘
-- The word "coffee" comes from the Arabic word "qahwah"
-- Coffee is the second most traded commodity after oil
-- There are over 100 species of coffee plants
-- The most expensive coffee in the world is Kopi Luwak (civet coffee)
+idDay ouyay owknay?
+- offeeCay eansbay areway actuallyway eedssay omfray offeecay errieschay! 🫘
+- eThay ordway "offeecay" omescay omfray ethay Arabicway ordway "qahwah"
+- offeeCay isway ethay econdsay ostmay adedtray ommoditycay afterway oilway
+- ereTray areway overway 100 eciesspay ofway offeecay antsplay
+- eThay ostmay expensiveway offeecay inway ethay orldway isway opiKay uwakLay (ivetcay offeecay)
 
-## 🎉 Acknowledgments
+## 🎉 Acknowledgmentsway
 
-- ☕ To all the coffee lovers who inspired this project
-- 🫘 To the coffee beans that keep us coding
-- 💻 To the open source community
-- 🎨 To the designers who make the web beautiful
+- ☕ oTay allway ethay offeecay overslay ohway inspiredway isthay ojectpray
+- 🫘 oTay ethay offeecay eansbay atthay eepkay usway odingcay
+- 💻 oTay ethay openway ourcesay ommunitycay
+- 🎨 oTay ethay esignersday ohway akemay ethay ebway eautifulbay
 
-## 📞 Support
+## 📞 upportSay
 
-Having trouble with BeanCounter? Here are some ways to get help:
+avingHay oubletray ithway eanCounterBay? ereHay areway omesay aysway otay etgay elphay:
 
-- 🐛 **Bug Reports**: Open an issue on GitHub
-- 💡 **Feature Requests**: We'd love to hear your ideas!
-- ☕ **Coffee Chat**: Reach out if you want to discuss coffee or code
+- 🐛 **ugBay eportsRay**: Openway anway issueway onway itHubGay
+- 💡 **eatureFay equestsRay**: e'dWay ovelay otay earhay ourway ideasway!
+- ☕ **offeeCay atChay**: eachRay outway ifway ouyay antway otay iscussday offeecay orway odecay
 
-## 🚀 Roadmap
+## 🚀 oadmapRay
 
-### Version 1.1 (Coming Soon)
-- [ ] User authentication system
-- [ ] Local data storage
-- [ ] Basic expense tracking
+### ersionVay 1.1 (omingCay oonSay)
+- [ ] Userway authenticationway ystemsay
+- [ ] ocalLay ataday oragestoray
+- [ ] asicBay expenseway ackingrtay
 
-### Version 1.2
-- [ ] Interactive dashboard
-- [ ] Coffee bean inventory
-- [ ] Recipe management
+### ersionVay 1.2
+- [ ] Interactiveway ashboardday
+- [ ] offeeCay eanbay inventoryway
+- [ ] ecipeRay anagementmay
 
-### Version 2.0
-- [ ] Cloud synchronization
-- [ ] Mobile app
-- [ ] Advanced analytics
-- [ ] Multi-location support
+### ersionVay 2.0
+- [ ] oudClay ynchronizationsay
+- [ ] obileMay appway
+- [ ] Advancedway analyticsway
+- [ ] ulti-locationMay upportsay
 
 ---
 
-**Made with ☕ and ❤️ for coffee lovers everywhere**
+**adeMay ithway ☕ andway ❤️ orfay offeecay overslay everywhereway**
 
-*"Life is too short for bad coffee" - Unknown Coffee Lover*
+*"ifeLay isway ootay ortshay orfay adbay offeecay" - UnknownWay offeeCay overLay*
 
 ---
 
 <div align="center">
-  <sub>Built with love and caffeine ☕</sub>
+  <sub>uiltBay ithway ovelay andway affeinecay ☕</sub>
 </div> 
