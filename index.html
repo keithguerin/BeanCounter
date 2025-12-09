@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BeanCounter - Your ultimate coffee shop expense tracker and inventory management system for coffee lovers and cafe owners.">
     <title>BeanCounter ☕ - Coffee Shop Expense Tracker</title>
     <style>
         * {
@@ -59,7 +60,7 @@
 
         .tagline {
             font-size: 1.2rem;
-            color: #666;
+            color: #4a4a4a;
             margin-bottom: 30px;
             font-style: italic;
         }
@@ -114,7 +115,7 @@
         .footer {
             margin-top: 30px;
             font-size: 0.9rem;
-            color: #888;
+            color: #666;
         }
 
         .coffee-beans {
@@ -133,45 +134,97 @@
         .bean2 { top: 20%; right: 15%; animation-delay: 1s; }
         .bean3 { bottom: 30%; left: 20%; animation-delay: 2s; }
         .bean4 { bottom: 20%; right: 10%; animation-delay: 3s; }
+
+        /* Skip to main content link */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: #8B4513;
+            color: white;
+            padding: 8px;
+            text-decoration: none;
+            border-radius: 0 0 4px 0;
+            z-index: 100;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* Focus indicators for better keyboard navigation */
+        *:focus {
+            outline: 3px solid #D2691E;
+            outline-offset: 2px;
+        }
+
+        .cta-button:focus {
+            outline: 3px solid #FFF;
+            outline-offset: 2px;
+        }
+
+        /* Reduced motion support for accessibility */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        /* Improve feature card focus state */
+        .feature:focus-within {
+            outline: 2px solid #8B4513;
+            outline-offset: 2px;
+        }
     </style>
 </head>
 <body>
-    <div class="coffee-beans bean1">☕</div>
-    <div class="coffee-beans bean2">🫘</div>
-    <div class="coffee-beans bean3">☕</div>
-    <div class="coffee-beans bean4">🫘</div>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
-    <div class="container">
-        <div class="logo">☕ BeanCounter</div>
+    <div class="coffee-beans bean1" aria-hidden="true">☕</div>
+    <div class="coffee-beans bean2" aria-hidden="true">🫘</div>
+    <div class="coffee-beans bean3" aria-hidden="true">☕</div>
+    <div class="coffee-beans bean4" aria-hidden="true">🫘</div>
+
+    <main id="main-content" class="container">
+        <div class="logo" aria-hidden="true">☕ BeanCounter</div>
         <h1>Welcome to BeanCounter!</h1>
         <p class="tagline">Where every bean counts and every penny matters</p>
         
-        <div class="features">
-            <div class="feature">
-                <div class="feature-icon">💰</div>
+        <section class="features" aria-label="Key Features">
+            <article class="feature">
+                <div class="feature-icon" aria-hidden="true">💰</div>
                 <h3>Expense Tracking</h3>
                 <p>Track your coffee shop expenses with ease</p>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">📊</div>
+            </article>
+            <article class="feature">
+                <div class="feature-icon" aria-hidden="true">📊</div>
                 <h3>Analytics</h3>
                 <p>Beautiful charts and insights</p>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">🫘</div>
+            </article>
+            <article class="feature">
+                <div class="feature-icon" aria-hidden="true">🫘</div>
                 <h3>Inventory</h3>
                 <p>Manage your coffee bean stock</p>
-            </div>
-        </div>
+            </article>
+        </section>
 
-        <button class="cta-button" onclick="alert('🚧 Coming Soon! 🚧\n\nBeanCounter is brewing up something special. Stay tuned for the full coffee shop management experience!')">
-            Start Counting Beans! 🫘
+        <button class="cta-button" id="cta-button" aria-label="Start using BeanCounter">
+            Start Counting Beans!
         </button>
 
-        <div class="footer">
-            <p>Made with ☕ and ❤️ for coffee lovers everywhere</p>
+        <footer class="footer">
+            <p>Made with <span aria-label="coffee">☕</span> and <span aria-label="love">❤️</span> for coffee lovers everywhere</p>
             <p>Version 1.0.0 - Freshly Brewed</p>
-        </div>
-    </div>
+        </footer>
+    </main>
+
+    <script>
+        // Event listener for CTA button (better than inline onclick)
+        document.getElementById('cta-button').addEventListener('click', function() {
+            alert('Coming Soon!\n\nBeanCounter is brewing up something special. Stay tuned for the full coffee shop management experience!');
+        });
+    </script>
 </body>
 </html> 
